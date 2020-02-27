@@ -143,7 +143,7 @@ def multiplication(*args):
           '2 - Повернутися в головне меню\n')
     while text == '1' or '2':
         if text == '1':
-            return __name__()
+            return multiplication()
         else:
             return general()
 
@@ -166,7 +166,7 @@ def division(*args):
           '2 - Повернутися в головне меню\n')
     while text == '1' or '2':
         if text == '1':
-            return __name__()
+            return division()
         else:
             return general()
 
